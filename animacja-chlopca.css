@@ -1,0 +1,4 @@
+.animowany-chlopiec{position:absolute;left:8%;bottom:10%;height:64%;aspect-ratio:1/1;pointer-events:none;z-index:3}
+.animowany-chlopiec img{width:100%;height:100%;object-fit:contain}
+.animowany-chlopiec[data-error]::after{content:attr(data-error);display:block;padding:12px;background:#fff;color:#a00;font-weight:bold}
+@media(orientation:landscape){.animowany-chlopiec{height:74%;left:10%}}
