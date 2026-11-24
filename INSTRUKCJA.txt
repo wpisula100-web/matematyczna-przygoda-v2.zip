@@ -1,0 +1,12 @@
+MATEMATYCZNY MISTRZ REALU — WERSJA 3
+
+1. Rozpakuj ZIP.
+2. Na GitHubie w repozytorium gry wgraj pliki z paczki do głównego katalogu repozytorium, zachowując folder public.
+3. W głównym katalogu MUSZĄ być: index.html, main.jsx, style.css, package.json, vercel.json.
+4. W folderze public MUSZĄ być: menu.png, strzal.gif, twarz.jpg, icon-192.png, icon-512.png, manifest.webmanifest, sw.js.
+5. Jeśli w public masz plik „strzał.gif” (z polską literą ł), nie szkodzi: nowy kod korzysta z „strzal.gif” (bez polskich znaków), który jest w tej paczce.
+6. W Vercel ustaw Root Directory na ./ (główny katalog repozytorium), Framework Preset Vite, Build Command npm run build, Output Directory dist. Zrób Redeploy.
+7. Po otwarciu strony w Chrome na Androidzie wybierz menu ⋮ → Dodaj do ekranu głównego / Zainstaluj aplikację.
+8. Wersja PWA deklaruje orientację poziomą; nie każda przeglądarka wymusi obrót, jeśli telefon ma zablokowane obracanie.
+
+WAŻNE: oryginalny GIF zawiera tło stadionu i białą koszulkę. Animacja jest odtwarzana w całości, bez podmiany stroju w jej klatkach. W sklepie dostępny jest osobny podgląd przebieranej postaci (wersja robocza), nie animowany model 3D. Do realnego przebierania w animacji potrzebny będzie zestaw klatek postaci bez tła, z osobnymi warstwami ubrań.
